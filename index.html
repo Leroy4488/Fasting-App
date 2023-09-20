@@ -1,0 +1,28 @@
+<!DOCTYPE html>S
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasting App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Fasting App</h1>
+    <h4>(Created by Leroy)</h4>
+    <form id="meal-form">
+        <fieldset class="form">
+            <label id="head" for="time">Time of last meal (HH:MM):</label>
+            <input id="time" name="time" type="text" placeholder="20:00">
+            <button id="input" type="submit">Calculate Next Meal</button>
+        </fieldset>
+        <div id="result_div">
+            <p id="result_heading">Time of next meal: </p>
+            <p id="result">&nbsp</p>
+        </div>
+        <script src="script.js"></script>
+    </form>
+</body>
+
+</html>
